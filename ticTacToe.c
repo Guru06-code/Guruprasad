@@ -39,8 +39,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 2:
@@ -52,8 +52,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 3:
@@ -65,8 +65,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 4:
@@ -78,8 +78,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 5:
@@ -91,8 +91,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 6:
@@ -104,8 +104,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 7:
@@ -117,8 +117,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 8:
@@ -130,8 +130,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 9:
@@ -143,14 +143,14 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 default:
                 {
-                    printf("Wrong move make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                 }
             }
             if(a[0][0]=='X'&&a[1][1]=='X'&&a[2][2]=='X'||a[0][2]=='X'&&a[1][1]=='X'&&a[2][0]=='X'||a[0][0]=='X'&&a[0][1]=='X'&&a[0][2]=='X'||a[1][0]=='X'&&a[1][1]=='X'&&a[1][2]=='X'||a[2][0]=='X'&&a[2][1]=='X'&&a[2][2]=='X'||a[0][0]=='X'&&a[1][0]=='X'&&a[2][0]=='X'||a[0][1]=='X'&&a[1][1]=='X'&&a[2][1]=='X'||a[0][2]=='X'&&a[1][2]=='X'&&a[2][2]=='X')
@@ -172,8 +172,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 2:
@@ -185,8 +185,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 3:
@@ -198,8 +198,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 4:
@@ -211,8 +211,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 5:
@@ -224,8 +224,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 6:
@@ -237,8 +237,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 7:
@@ -250,8 +250,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 8:
@@ -263,8 +263,8 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 case 9:
@@ -276,14 +276,14 @@ int main()
                 }
                 else
                 {
-                    printf("Make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                     break;
                 }
                 default:
                 {
-                    printf("Wrong move make a valid move\n");
                     loop();
+                    printf("Make a valid move\n");
                 }
             }
             if(a[0][0]=='O'&&a[1][1]=='O'&&a[2][2]=='O'||a[0][2]=='O'&&a[1][1]=='O'&&a[2][0]=='O'||a[0][0]=='O'&&a[0][1]=='O'&&a[0][2]=='O'||a[1][0]=='O'&&a[1][1]=='O'&&a[1][2]=='O'||a[2][0]=='O'&&a[2][1]=='O'&&a[2][2]=='O'||a[0][0]=='O'&&a[1][0]=='O'&&a[2][0]=='O'||a[0][1]=='O'&&a[1][1]=='O'&&a[2][1]=='O'||a[0][2]=='O'&&a[1][2]=='O'&&a[2][2]=='O')
