@@ -1,7 +1,9 @@
 #include<stdio.h>
+#include<stdlib.h>
 char a[3][3]={'1','2','3','4','5','6','7','8','9'};
 void loop()
 {
+    system("clear");
     int i,j;
     for(i=0;i<3;i++)
     {
@@ -14,15 +16,11 @@ void loop()
 }
 int main()
 {
-    int P1,P2,player,ch,count;
+    int ch,count;
     {
         loop();
         do
         {
-            printf("1.P1\n2.P2\n");
-            scanf("%d",&player);
-            if(player==1)
-            {
                 printf("Player 1 make a move\n");
                 scanf("%d",&ch);
                 count++;
@@ -156,9 +154,6 @@ int main()
                    printf("Player 1 WON\n");
                    return 0;   
                 }
-            }
-            else if(player==2)
-            {
                 printf("Player 2 make a move\n");
                 scanf("%d",&ch);
                 count++;
@@ -292,11 +287,6 @@ int main()
                     printf("Player 2 WON\n");
                     return 0;
                 }
-            }
-            else
-            {
-                printf("Only 2 players can play this game\n");
-            }
         }
         while(count<9);
         printf("Match tied\n");
