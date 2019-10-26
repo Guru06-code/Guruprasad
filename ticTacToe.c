@@ -10,8 +10,12 @@ void loop()
         for(j=0;j<3;j++)
         {
             printf("%c  ",a[i][j]);
+            if(j<2)
+            printf("|  ");
         }
         printf("\n");
+        if(i<2)
+        printf("-------------\n");
     }
 }
 int main()
