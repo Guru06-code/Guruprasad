@@ -42,5 +42,12 @@ int main()
         printf("Right answer\n");
     }
     printf("You won the quiz\n");
-    printf("Your score is %d",score);
+    printf("Your score is %d\n",score);
+    if(score<7)
+    printf("Poor performance\n");
+    else if(score<10)
+    printf("Good performance\n");
+    else
+    printf("Excellent performance\n");
+    return 0;
 }
