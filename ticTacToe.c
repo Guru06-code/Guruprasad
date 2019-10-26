@@ -25,275 +25,275 @@ int main()
         loop();
         do
         {
-                printf("Player 1 make a move\n");
-                scanf("%d",&ch);
-                count++;
-                switch(ch)
+            printf("Player 1 make a move\n");
+            scanf("%d",&ch);
+            count++;
+            switch(ch)
+            {
+                case 1:
+                if(a[0][0]!='X'&&a[0][0]!='O')
                 {
-                    case 1:
-                    if(a[0][0]!='X'&&a[0][0]!='O')
-                    {
-                        a[0][0]='X';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 2:
-                    if(a[0][1]!='X'&&a[0][1]!='O')
-                    {
-                        a[0][1]='X';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 3:
-                    if(a[0][2]!='X'&&a[0][2]!='O')
-                    {
-                        a[0][2]='X';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 4:
-                    if(a[1][0]!='X'&&a[1][0]!='O')
-                    {
-                        a[1][0]='X';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 5:
-                    if(a[1][1]!='X'&&a[1][1]!='O')
-                    {
-                        a[1][1]='X';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 6:
-                    if(a[1][2]!='X'&&a[1][2]!='O')
-                    {
-                        a[1][2]='X';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 7:
-                    if(a[2][0]!='X'&&a[2][0]!='O')
-                    {
-                        a[2][0]='X';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 8:
-                    if(a[2][1]!='X'&&a[2][1]!='O')
-                    {
-                        a[2][1]='X';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 9:
-                    if(a[2][2]!='X'&&a[2][2]!='O')
-                    {
-                        a[2][2]='X';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    default:
-                    {
-                        printf("Wrong move make a valid move\n");
-                        loop();
-                    }
+                    a[0][0]='X';
+                    loop();
+                    break;
                 }
-                if(a[0][0]=='X'&&a[1][1]=='X'&&a[2][2]=='X'||a[0][2]=='X'&&a[1][1]=='X'&&a[2][0]=='X'||a[0][0]=='X'&&a[0][1]=='X'&&a[0][2]=='X'||a[1][0]=='X'&&a[1][1]=='X'&&a[1][2]=='X'||a[2][0]=='X'&&a[2][1]=='X'&&a[2][2]=='X'||a[0][0]=='X'&&a[1][0]=='X'&&a[2][0]=='X'||a[0][1]=='X'&&a[1][1]=='X'&&a[2][1]=='X'||a[0][2]=='X'&&a[1][2]=='X'&&a[2][2]=='X')
+                else
                 {
-                   printf("Player 1 WON\n");
-                   return 0;   
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
                 }
-                printf("Player 2 make a move\n");
-                scanf("%d",&ch);
-                count++;
-                switch(ch)
+                case 2:
+                if(a[0][1]!='X'&&a[0][1]!='O')
                 {
-                    case 1:
-                    if(a[0][0]!='X'&&a[0][0]!='O')
-                    {
-                        a[0][0]='O';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 2:
-                    if(a[0][1]!='X'&&a[0][1]!='O')
-                    {
-                        a[0][1]='O';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 3:
-                    if(a[0][2]!='X'&&a[0][2]!='O')
-                    {
-                        a[0][2]='O';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 4:
-                    if(a[1][0]!='X'&&a[1][0]!='O')
-                    {
-                        a[1][0]='O';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 5:
-                    if(a[1][1]!='X'&&a[1][1]!='O')
-                    {
-                        a[1][1]='O';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 6:
-                    if(a[1][2]!='X'&&a[1][2]!='O')
-                    {
-                        a[1][2]='O';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 7:
-                    if(a[2][0]!='X'&&a[2][0]!='O')
-                    {
-                        a[2][0]='O';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 8:
-                    if(a[2][1]!='X'&&a[2][1]!='O')
-                    {
-                        a[2][1]='O';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    case 9:
-                    if(a[2][2]!='X'&&a[2][2]!='O')
-                    {
-                        a[2][2]='O';
-                        loop();
-                        break;
-                    }
-                    else
-                    {
-                        printf("Make a valid move\n");
-                        loop();
-                        break;
-                    }
-                    default:
-                    {
-                        printf("Wrong move make a valid move\n");
-                        loop();
-                    }
+                    a[0][1]='X';
+                    loop();
+                    break;
                 }
-                if(a[0][0]=='O'&&a[1][1]=='O'&&a[2][2]=='O'||a[0][2]=='O'&&a[1][1]=='O'&&a[2][0]=='O'||a[0][0]=='O'&&a[0][1]=='O'&&a[0][2]=='O'||a[1][0]=='O'&&a[1][1]=='O'&&a[1][2]=='O'||a[2][0]=='O'&&a[2][1]=='O'&&a[2][2]=='O'||a[0][0]=='O'&&a[1][0]=='O'&&a[2][0]=='O'||a[0][1]=='O'&&a[1][1]=='O'&&a[2][1]=='O'||a[0][2]=='O'&&a[1][2]=='O'&&a[2][2]=='O')
+                else
                 {
-                    printf("Player 2 WON\n");
-                    return 0;
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
                 }
+                case 3:
+                if(a[0][2]!='X'&&a[0][2]!='O')
+                {
+                    a[0][2]='X';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                case 4:
+                if(a[1][0]!='X'&&a[1][0]!='O')
+                {
+                    a[1][0]='X';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                case 5:
+                if(a[1][1]!='X'&&a[1][1]!='O')
+                {
+                    a[1][1]='X';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                case 6:
+                if(a[1][2]!='X'&&a[1][2]!='O')
+                {
+                    a[1][2]='X';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                case 7:
+                if(a[2][0]!='X'&&a[2][0]!='O')
+                {
+                    a[2][0]='X';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                case 8:
+                if(a[2][1]!='X'&&a[2][1]!='O')
+                {
+                    a[2][1]='X';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                case 9:
+                if(a[2][2]!='X'&&a[2][2]!='O')
+                {
+                    a[2][2]='X';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                default:
+                {
+                    printf("Wrong move make a valid move\n");
+                    loop();
+                }
+            }
+            if(a[0][0]=='X'&&a[1][1]=='X'&&a[2][2]=='X'||a[0][2]=='X'&&a[1][1]=='X'&&a[2][0]=='X'||a[0][0]=='X'&&a[0][1]=='X'&&a[0][2]=='X'||a[1][0]=='X'&&a[1][1]=='X'&&a[1][2]=='X'||a[2][0]=='X'&&a[2][1]=='X'&&a[2][2]=='X'||a[0][0]=='X'&&a[1][0]=='X'&&a[2][0]=='X'||a[0][1]=='X'&&a[1][1]=='X'&&a[2][1]=='X'||a[0][2]=='X'&&a[1][2]=='X'&&a[2][2]=='X')
+            {
+               printf("Player 1 WON\n");
+               return 0;   
+            }
+            printf("Player 2 make a move\n");
+            scanf("%d",&ch);
+            count++;
+            switch(ch)
+            {
+                case 1:
+                if(a[0][0]!='X'&&a[0][0]!='O')
+                {
+                    a[0][0]='O';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                case 2:
+                if(a[0][1]!='X'&&a[0][1]!='O')
+                {
+                    a[0][1]='O';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                case 3:
+                if(a[0][2]!='X'&&a[0][2]!='O')
+                {
+                    a[0][2]='O';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                case 4:
+                if(a[1][0]!='X'&&a[1][0]!='O')
+                {
+                    a[1][0]='O';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                case 5:
+                if(a[1][1]!='X'&&a[1][1]!='O')
+                {
+                    a[1][1]='O';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                case 6:
+                if(a[1][2]!='X'&&a[1][2]!='O')
+                {
+                    a[1][2]='O';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                case 7:
+                if(a[2][0]!='X'&&a[2][0]!='O')
+                {
+                    a[2][0]='O';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                case 8:
+                if(a[2][1]!='X'&&a[2][1]!='O')
+                {
+                    a[2][1]='O';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                case 9:
+                if(a[2][2]!='X'&&a[2][2]!='O')
+                {
+                    a[2][2]='O';
+                    loop();
+                    break;
+                }
+                else
+                {
+                    printf("Make a valid move\n");
+                    loop();
+                    break;
+                }
+                default:
+                {
+                    printf("Wrong move make a valid move\n");
+                    loop();
+                }
+            }
+            if(a[0][0]=='O'&&a[1][1]=='O'&&a[2][2]=='O'||a[0][2]=='O'&&a[1][1]=='O'&&a[2][0]=='O'||a[0][0]=='O'&&a[0][1]=='O'&&a[0][2]=='O'||a[1][0]=='O'&&a[1][1]=='O'&&a[1][2]=='O'||a[2][0]=='O'&&a[2][1]=='O'&&a[2][2]=='O'||a[0][0]=='O'&&a[1][0]=='O'&&a[2][0]=='O'||a[0][1]=='O'&&a[1][1]=='O'&&a[2][1]=='O'||a[0][2]=='O'&&a[1][2]=='O'&&a[2][2]=='O')
+            {
+                printf("Player 2 WON\n");
+                return 0;
+            }
         }
         while(count<9);
-        printf("Match tied\n");
+        printf("Nobody wins\n");
     }
     return 0;
 }
